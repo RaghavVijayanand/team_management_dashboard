@@ -1,0 +1,19 @@
+{
+  "name": "kinetics-signaling-server",
+  "version": "1.0.0",
+  "description": "WebRTC signaling server for Kinetics chat",
+  "main": "signaling.js",
+  "scripts": {
+    "start": "node signaling.js",
+    "dev": "nodemon signaling.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

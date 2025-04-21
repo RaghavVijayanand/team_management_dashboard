@@ -1,0 +1,16 @@
+{
+  "name": "kinetics-chat",
+  "version": "1.0.0",
+  "description": "Kinetics Chat Application",
+  "scripts": {
+    "start": "concurrently \"cd server && npm start\" \"cd kinetics-chat && npm run dev\"",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd kinetics-chat && npm run dev\"",
+    "install-all": "npm install && cd server && npm install && cd ../kinetics-chat && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/react-speech-recognition": "^3.9.6"
+  }
+}
