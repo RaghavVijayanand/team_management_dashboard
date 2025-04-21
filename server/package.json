@@ -1,0 +1,12 @@
+{
+  "name": "kinetics-chat-signaling",
+  "version": "1.0.0",
+  "description": "Signaling server for WebRTC video calls",
+  "main": "signaling.js",
+  "scripts": {
+    "start": "node signaling.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.1"
+  }
+}
